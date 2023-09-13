@@ -61,7 +61,7 @@ main {
                 );
                 border-radius: 20px;
                 position: relative;
-                animation: increase 2s ease;
+                animation: increase 1s ease;
 
                 &::after {
                     content: "";
@@ -154,7 +154,7 @@ footer {
 @media screen and (max-width: 425px) {
     body {
         background-image: url(../images/bg-mobile.png);
-        grid-template-rows: 0.9fr 0.3fr;
+        grid-template-rows: min-content;
         background-size: cover;
         background-position: center;
     }
