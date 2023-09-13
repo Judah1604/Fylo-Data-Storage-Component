@@ -139,6 +139,7 @@ main {
 footer {
     margin-top: auto;
     margin-bottom: 1em;
+    font-size: 12px;
 
     .attribution {
         text-align: center;
@@ -157,6 +158,10 @@ footer {
         grid-template-rows: min-content;
         background-size: cover;
         background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     main {
@@ -180,17 +185,15 @@ footer {
         }
 
         .info {
-
             .popup {
                 right: 20%;
                 bottom: -60%;
-                
-                &::before  {
+
+                &::before {
                     display: none;
                 }
             }
         }
-
     }
 }
 

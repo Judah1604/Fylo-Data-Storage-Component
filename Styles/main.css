@@ -120,6 +120,7 @@ main .card .controls {
 footer {
   margin-top: auto;
   margin-bottom: 1em;
+  font-size: 12px;
 }
 footer .attribution {
   text-align: center;
@@ -135,6 +136,10 @@ footer .attribution a {
     grid-template-rows: min-content;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   main {
     flex-direction: column;
